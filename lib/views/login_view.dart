@@ -67,11 +67,19 @@ class _LoginViewState extends State<LoginView> {
                   email: email,
                   password: password,
                 );
-                // ignore: use_build_context_synchronously
-                Navigator.of(context).pushNamedAndRemoveUntil(
-                  notesRoute,
-                  (route) => false,
-                );
+                final user = FirebaseAuth.instance.currentUser;
+                if (user?.emailVerified ?? false) {
+                  Navigator.of(context).pushNamedAndRemoveUntil(
+                    notesRoute,
+                    (route) => false,
+                  );
+                }else{
+                  Navigator.of(context).pushNamedAndRemoveUntil(
+                    verifyEmailRoute,
+                    (route) => false,
+                  );
+                }
+
               } on FirebaseAuthException catch (error) {
                 if (error.code == 'user-not-found') {
                   await showErrorDialog(
@@ -83,17 +91,17 @@ class _LoginViewState extends State<LoginView> {
                     context,
                     'Wrong credentials',
                   );
-                } else{
-                   await showErrorDialog(
+                } else {
+                  await showErrorDialog(
                     context,
                     'Error: ${error.code}',
                   );
                 }
               } catch (e) {
                 await showErrorDialog(
-                    context,
-                    'Error: ${e.toString()}',
-                  );
+                  context,
+                  'Error: ${e.toString()}',
+                );
               }
             },
             child: const Text('Login'),
