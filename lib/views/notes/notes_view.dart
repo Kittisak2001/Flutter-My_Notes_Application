@@ -3,7 +3,7 @@ import 'package:mynotes/constants/routes.dart';
 import 'package:mynotes/services/auth/auth_service.dart';
 import 'package:mynotes/services/crud/notes_service.dart';
 import 'package:mynotes/utilities/dialogs/logout_dialog.dart';
-import 'package:mynotes/views/notes/new_note_view.dart';
+import 'package:mynotes/views/notes/create_update_note_view.dart';
 import 'package:mynotes/views/notes/note_list_view.dart';
 
 import '../../enums/menu_action.dart';
@@ -25,7 +25,6 @@ class _NotesViewState extends State<NotesView> {
     super.initState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +33,7 @@ class _NotesViewState extends State<NotesView> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.of(context).pushNamed(newNoteRoute);
+              Navigator.of(context).pushNamed(createOrUpdateNoteRoute);
             },
             icon: const Icon(Icons.add),
           ),
@@ -79,11 +78,16 @@ class _NotesViewState extends State<NotesView> {
                           final allNotes = snapshot.data as List<DatabaseNotes>;
                           return NotesListView(
                             notes: allNotes,
-                            onDeleteNote: (note) async{
-                              await _noteService.deleteNote(id:note.id);
+                            onDeleteNote: (note) async {
+                              await _noteService.deleteNote(id: note.id);
+                            },
+                            onTap: (note) {
+                              Navigator.of(context).pushNamed(
+                                createOrUpdateNoteRoute,
+                                arguments: note,
+                              );
                             },
                           );
-                          
                         } else {
                           return const CircularProgressIndicator();
                         }
