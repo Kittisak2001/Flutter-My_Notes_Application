@@ -25,11 +25,6 @@ class _NotesViewState extends State<NotesView> {
     super.initState();
   }
 
-  @override
-  void dispose() {
-    _noteService.close();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
