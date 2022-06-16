@@ -22,6 +22,7 @@ class AuthBolc extends Bloc<AuthEvent, AuthState> {
         emit(AuthStateLoggedIn(user));
       }
     });
+
     // send email verification
     on<AuthEventSendEmailVerification>((event, emit) async {
       await provider.sendEmailVerification();
@@ -43,6 +44,7 @@ class AuthBolc extends Bloc<AuthEvent, AuthState> {
         }
       },
     );
+
     // login
     on<AuthEventLogIn>((event, emit) async {
       emit(
@@ -85,6 +87,7 @@ class AuthBolc extends Bloc<AuthEvent, AuthState> {
         );
       }
     });
+    
     // log out
     on<AuthEventLogOut>((event, emit) async {
       try {
