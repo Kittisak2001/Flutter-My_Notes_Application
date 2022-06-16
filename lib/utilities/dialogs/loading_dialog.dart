@@ -24,6 +24,5 @@ CloseDialog showLoadingDialog({
     barrierDismissible: false,
     builder: (context) => dialog,
   );
-
   return () => Navigator.of(context).pop();
 }
