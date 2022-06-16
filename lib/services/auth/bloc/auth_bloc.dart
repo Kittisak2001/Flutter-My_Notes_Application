@@ -18,7 +18,7 @@ class AuthBolc extends Bloc<AuthEvent, AuthState> {
       }
     });
 
-    on<AuthEventLogIn>(((event, emit) async {
+    on<AuthEventLogIn>((event, emit) async {
       final email = event.email;
       final password = event.password;
       try {
@@ -28,9 +28,9 @@ class AuthBolc extends Bloc<AuthEvent, AuthState> {
         );
         emit(AuthStateLoggedIn(user));
       } on Exception catch (e) {
-        emit(AuthStateLoginFailure(e));
+        emit(AuthStateLoggedOut(e));
       }
-    }));
+    });
     // log out
     on<AuthEventLogOut>((event, emit) async {
       try {
