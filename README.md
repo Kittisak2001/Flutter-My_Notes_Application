@@ -78,9 +78,21 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 21  Newnote view](https://user-images.githubusercontent.com/100192085/174403250-e187bf25-228a-4b74-ba45-c461c79721eb.jpg)
 
+*Share Note
+
+![Page 22  Share Text Note](https://user-images.githubusercontent.com/100192085/174403690-97d353c5-b22a-4539-b9a5-f3a65f086db3.jpg)
+
+*Error Share
+
+![Page 23  Error Sharing](https://user-images.githubusercontent.com/100192085/174403777-db09c47a-d81c-4db8-b089-22a4b78871a1.jpg)
+
 *Database Firebase Before add note
 
 ![Page 19  Database Before](https://user-images.githubusercontent.com/100192085/174403425-cc429c30-bbdb-45c8-9a82-7e6951cf4748.jpg)
+
+- New Notes View [Page 10]
+ 
+![Page 20  After Add note](https://user-images.githubusercontent.com/100192085/174403797-aa8188b9-3ade-42e6-b5ef-511b98049fd3.jpg)
 
 *Database Firebase After add note
 
