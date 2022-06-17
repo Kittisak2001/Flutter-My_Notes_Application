@@ -33,3 +33,5 @@ Use Firebase , Database , Authentication, Verification email , etc.
 *Click link Verify email
 
 ![Page 8  click link Ver](https://user-images.githubusercontent.com/100192085/174400803-fbd3ed07-93c7-43cc-a378-83d494846db7.jpg)
+
+- Login View [Page 5] *After Registered
