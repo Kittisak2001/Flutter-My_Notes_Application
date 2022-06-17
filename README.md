@@ -74,5 +74,7 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 18  Login Succedd go to Note View](https://user-images.githubusercontent.com/100192085/174402461-84ec6105-4965-4289-9c1e-7f62bb834fa1.jpg)
 
+- Add Notes View [Page 9]
 
+![Page 21  Newnote view](https://user-images.githubusercontent.com/100192085/174403250-e187bf25-228a-4b74-ba45-c461c79721eb.jpg)
 
