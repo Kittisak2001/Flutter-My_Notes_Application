@@ -42,5 +42,8 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 10  Reset password](https://user-images.githubusercontent.com/100192085/174401077-644908c7-559e-436a-9614-c5598615a5c1.jpg)
 
+*Notification Button
+
+![Page 15  Nofi Reset](https://user-images.githubusercontent.com/100192085/174401496-3f8c7601-4a88-45c2-bc9d-b3766730605f.jpg)
 
 
