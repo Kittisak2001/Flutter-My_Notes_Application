@@ -50,11 +50,11 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 12  check email reset password](https://user-images.githubusercontent.com/100192085/174401654-ce217162-3e74-4f9d-ae75-db2e432e5f07.jpg)
 
-*Click link Before reset
+*Doing link Before reset
 
 ![Page 13  link reset](https://user-images.githubusercontent.com/100192085/174401723-584ae069-f4d1-4ea6-8c3f-66cd8d65ed13.jpg)
 
-*Click link After reset
+*After reset Success
 
 ![Page 14  Reset Ok](https://user-images.githubusercontent.com/100192085/174401805-e7cb6396-a577-4421-bbe9-27c0444a2449.jpg)
 
