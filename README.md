@@ -58,6 +58,15 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 14  Reset Ok](https://user-images.githubusercontent.com/100192085/174401805-e7cb6396-a577-4421-bbe9-27c0444a2449.jpg)
 
+-Login old Password View [Page 7]
+
+![Page 16  Worng Email-password](https://user-images.githubusercontent.com/100192085/174402204-569ae724-abbf-4bc8-9f14-7de20042c423.jpg)
+
+*error message
+
+![Page 17  Wrong pass email](https://user-images.githubusercontent.com/100192085/174402309-f943b612-117c-4abf-ac3b-5216ec332954.jpg)
+
+
 
 
 
