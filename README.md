@@ -35,3 +35,12 @@ Use Firebase , Database , Authentication, Verification email , etc.
 ![Page 8  click link Ver](https://user-images.githubusercontent.com/100192085/174400803-fbd3ed07-93c7-43cc-a378-83d494846db7.jpg)
 
 - Login View [Page 5] *After Registered
+
+![Page 9  Login after](https://user-images.githubusercontent.com/100192085/174401001-1c0e66c6-6fc5-402b-ac22-75cd5196a13d.jpg)
+
+- Forget Password View [Page 6]
+
+![Page 10  Reset password](https://user-images.githubusercontent.com/100192085/174401077-644908c7-559e-436a-9614-c5598615a5c1.jpg)
+
+
+
