@@ -25,3 +25,11 @@ Use Firebase , Database , Authentication, Verification email , etc.
 - Verify Email View [Page 4]
 
 ![Page 6  Notication email](https://user-images.githubusercontent.com/100192085/174400605-7e93554c-182a-4033-a4e3-ac5a8c6f2995.jpg)
+
+*Check email message verify from firebase
+
+![Page 7  Check email](https://user-images.githubusercontent.com/100192085/174400773-bcc1e791-5fd0-44b9-b021-619cfef3ce1b.jpg)
+
+*Click link Verify email
+
+![Page 8  click link Ver](https://user-images.githubusercontent.com/100192085/174400803-fbd3ed07-93c7-43cc-a378-83d494846db7.jpg)
