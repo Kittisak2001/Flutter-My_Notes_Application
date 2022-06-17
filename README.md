@@ -66,7 +66,13 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 17  Wrong pass email](https://user-images.githubusercontent.com/100192085/174402309-f943b612-117c-4abf-ac3b-5216ec332954.jpg)
 
+-Login New Password View [Page 7]
 
+![Page 16  Worng Email-password](https://user-images.githubusercontent.com/100192085/174402204-569ae724-abbf-4bc8-9f14-7de20042c423.jpg)
+
+-Login Success go to My Notes View [Page 8]
+
+![Page 18  Login Succedd go to Note View](https://user-images.githubusercontent.com/100192085/174402461-84ec6105-4965-4289-9c1e-7f62bb834fa1.jpg)
 
 
 
