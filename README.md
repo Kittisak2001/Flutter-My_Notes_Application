@@ -81,3 +81,9 @@ Use Firebase , Database , Authentication, Verification email , etc.
 *Database Firebase Before add note
 
 ![Page 19  Database Before](https://user-images.githubusercontent.com/100192085/174403425-cc429c30-bbdb-45c8-9a82-7e6951cf4748.jpg)
+
+*Database Firebase After add note
+
+![Page 24  After Add note Database firebase](https://user-images.githubusercontent.com/100192085/174403494-3ef70a66-6096-43b5-ae7d-05ecb290518c.jpg)
+
+
