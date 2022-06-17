@@ -22,3 +22,6 @@ Use Firebase , Database , Authentication, Verification email , etc.
 
 ![Page 5  After Firebase](https://user-images.githubusercontent.com/100192085/174400492-51d9962e-c51c-466b-8bb7-cc781372dd72.jpg)
 
+- Verify Email View [Page 4]
+
+![Page 6  Notication email](https://user-images.githubusercontent.com/100192085/174400605-7e93554c-182a-4033-a4e3-ac5a8c6f2995.jpg)
