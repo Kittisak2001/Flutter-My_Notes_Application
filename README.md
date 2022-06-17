@@ -1,5 +1,8 @@
 # My Notes Application (Flutter)
 
+![SplashScreen](https://user-images.githubusercontent.com/100192085/174404226-4343bffd-3e6f-44e6-9275-765c4203dd74.jpg)
+
+
 Use Firebase , Database , Authentication, Verification email , etc.
 
 - Login View [Page 1]
@@ -99,10 +102,21 @@ Use Firebase , Database , Authentication, Verification email , etc.
 ![Page 24  After Add note Database firebase](https://user-images.githubusercontent.com/100192085/174403494-3ef70a66-6096-43b5-ae7d-05ecb290518c.jpg)
 
 - Delete Notes [Page 11]
+
 *Before
+
 ![Page 26  Before Delete](https://user-images.githubusercontent.com/100192085/174403928-94a6db40-05df-46dc-92a0-077df2d33e25.jpg)
+
 *After
+
 ![Page 29  After Delete](https://user-images.githubusercontent.com/100192085/174404011-4831ed9f-9892-4bd1-9e71-777e9235cdc1.jpg)
 
+* Database Firebase Update After Delete Note Application
 
+![Page 30  Database update delete](https://user-images.githubusercontent.com/100192085/174404114-130fa1cc-e5f9-4976-ab6b-9b2d8f02b1f3.jpg)
 
+- Logout Page [Page 12]
+
+![Page 31  Logout](https://user-images.githubusercontent.com/100192085/174404168-4679caf9-10f8-482a-bb0d-e70ea9ebe1f6.jpg)
+
+![Page 32  Notification loggout](https://user-images.githubusercontent.com/100192085/174404181-768e4b5a-598b-437c-9836-910cb4786d5a.jpg)
