@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mynotes/helpers/loading/loading_screen_controller.dart';
 
@@ -34,6 +33,7 @@ class LoadingScreen {
     required BuildContext context,
     required String text,
   }) {
+    // ignore: no_leading_underscores_for_local_identifiers
     final _text = StreamController<String>();
     _text.add(text);
 

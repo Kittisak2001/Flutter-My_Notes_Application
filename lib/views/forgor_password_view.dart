@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mynotes/services/auth/bloc/auth_bloc.dart';
@@ -40,6 +38,7 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
             await showPasswordResetSentDialog(context);
           }
           if (state.exception != null) {
+            // ignore: use_build_context_synchronously
             await showErrorDialog(
               context,
               'We could not process your request. Please make sure that you are a registered user, or if not, register a user now by going back one step.',
